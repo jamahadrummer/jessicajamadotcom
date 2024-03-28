@@ -21,13 +21,13 @@ headerLeftBtn.addEventListener('click', () => {
 // 	extLink('https://www.flickr.com/jamahadrummer');
 // });
 
-// iconBtn2.addEventListener('click', () => {
-// 	extLink('https://www.instagram.com/jamahadrummer');
-// });
+mediaBtn2.addEventListener('click', () => {
+	extLink('https://www.thegeniusofplay.org/genius/expert-advice/articles/social-emotional-learning-during-the-holidays.aspx?WebsiteKey=f24671dc-3a61-4dfa-854c-b2d74801f627');
+});
 
-// iconBtn3.addEventListener('click', () => {
-// 	extLink('https://jamadaniel.wixsite.com/sound-designer');
-// });
+mediaBtn3.addEventListener('click', () => {
+	extLink('https://kidscreen.com/2023/09/29/why-self-care-and-sel-toys-are-on-the-rise/');
+});
 
 // iconBtn4.addEventListener('click', () => {
 // 	extLink('https://www.github.com/jamahadrummer');

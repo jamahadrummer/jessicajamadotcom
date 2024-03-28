@@ -1,5 +1,5 @@
 body {
-	background-color: #FDE8E9;
+	background-color: #fde8e9;
 	font-family: sans-serif;
 	display: flex;
 	flex-direction: column;
@@ -12,6 +12,7 @@ button {
 	background: none;
 	box-shadow: none;
 	border-radius: 6px;
+	font-family: sans-serif;
 }
 
 a {
@@ -37,7 +38,7 @@ a {
 }
 
 .headerLeft {
-	color: #E3BAC6;
+	color: #e3bac6;
 	font-size: 48px;
 	font-weight: bolder;
 	display: flex;
@@ -49,7 +50,7 @@ a {
 .headerRight {
 	/* margin-right: 16px; */
 	display: flex;
-	color: #E3BAC6;
+	color: #e3bac6;
 	font-size: 18px;
 	/* display: flex;
 	flex-direction: column;
@@ -119,7 +120,7 @@ a {
 	min-width: 1050px;
 	flex-direction: column;
 	align-content: space-around;
-	background-color: #E3BAC6;
+	background-color: #e3bac6;
 	/* border: 5px solid red; */
 	/* padding: 0 500px; */
 	/* gap: 40px; */
@@ -140,28 +141,38 @@ a {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	gap: 100px;
+	gap: 25px;
 	padding: 20px 0 100px 0;
 }
 
 .mediaContainer {
 	display: inherit;
+	width: 560;
 	flex-direction: column;
 }
 
 .mediaBlock {
 	display: inherit;
 	/* height: 150px; */
-	/* width: 150px; */
+	/* width: 560px; */
 	/* background-color: black; */
 	/* border: 5px solid black; */
 	/* border-radius: 20px; */
 	justify-content: center;
 	align-items: center;
 }
+.mediaVid {
+	box-shadow: 2px 5px #1f2937;
+	border-radius: 30px;
+}
 
 .mediaBtn {
-	width: 140px;
+	width: 560px;
+	font-size: 36px;
+	background-color: #5dfdcb;
+	border-radius: 30px;
+	padding: 5px;
+	box-shadow: 2px 5px #1f2937;
 }
 
 .mediaText {
@@ -185,16 +196,6 @@ a {
 .mediaSquare:active {
 	transform: scale(0.9);
 }
-
-.mediaBtn img {
-	filter: invert(95%) sepia(0%) saturate(343%) hue-rotate(219deg)
-		brightness(92%) contrast(86%);
-}
-
-/* .mediaquare button {
-	height: 130px;
-	width: 130px;
-} */
 
 .box div {
 	display: inherit;
