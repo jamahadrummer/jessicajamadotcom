@@ -1,6 +1,6 @@
 body {
-	background-color: #4d5359;
-	font-family: 'Font Awesome 5 Regular', sans-serif;
+	background-color: #FDE8E9;
+	font-family: sans-serif;
 	display: flex;
 	flex-direction: column;
 	min-width: 1050px;
@@ -25,8 +25,8 @@ a {
 	align-items: center;
 	/* border: 5px solid white; */
 	min-width: 1050px;
-	background-color: #8d111b;
-	font-family: 'Font Awesome 5 Regular', sans-serif;
+	background-color: #050826;
+	font-family: inherit;
 }
 
 .hbox {
@@ -37,19 +37,19 @@ a {
 }
 
 .headerLeft {
-	color: #f0faf8;
+	color: #E3BAC6;
 	font-size: 48px;
 	font-weight: bolder;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	font-family: 'Font Awesome 5 Regular', sans-serif;
+	font-family: inherit;
 }
 
 .headerRight {
 	/* margin-right: 16px; */
 	display: flex;
-	color: #e5e7eb;
+	color: #E3BAC6;
 	font-size: 18px;
 	/* display: flex;
 	flex-direction: column;
@@ -81,7 +81,7 @@ a {
 	text-align: center;
 	font-size: 32px;
 	font-weight: bolder;
-	color: #f9faf8;
+	color: #050826;
 }
 
 .content1photo {
@@ -90,7 +90,7 @@ a {
 
 .content1third {
 	font-size: 24px;
-	color: #e5e7eb;
+	color: #050826;
 }
 
 .content1box2 {
@@ -119,7 +119,7 @@ a {
 	min-width: 1050px;
 	flex-direction: column;
 	align-content: space-around;
-	background-color: #d1d1d1;
+	background-color: #E3BAC6;
 	/* border: 5px solid red; */
 	/* padding: 0 500px; */
 	/* gap: 40px; */
@@ -136,40 +136,41 @@ a {
 	padding: 20px 0px;
 }
 
-.icons {
+.media {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	gap: 100px;
 	padding: 20px 0 100px 0;
 }
 
-.iconContainer {
+.mediaContainer {
 	display: inherit;
 	flex-direction: column;
 }
 
-.iconSquare {
+.mediaBlock {
 	display: inherit;
-	height: 150px;
-	width: 150px;
-	background-color: black;
-	border: 5px solid black;
-	border-radius: 20px;
+	/* height: 150px; */
+	/* width: 150px; */
+	/* background-color: black; */
+	/* border: 5px solid black; */
+	/* border-radius: 20px; */
 	justify-content: center;
 	align-items: center;
 }
 
-.iconBtn {
+.mediaBtn {
 	width: 140px;
 }
 
-.iconText {
+.mediaText {
 	font-size: 16px;
 	text-align: center;
 	padding: 10px 0px;
 }
 
-.icons .box1 {
+.media .box1 {
 	display: flex;
 	flex-direction: column;
 	font-size: 18px;
@@ -177,20 +178,20 @@ a {
 	width: 150px;
 }
 
-.iconSquare:hover {
+.mediaSquare:hover {
 	transform: scale(1.1);
 }
 
-.iconSquare:active {
+.mediaSquare:active {
 	transform: scale(0.9);
 }
 
-.iconBtn img {
+.mediaBtn img {
 	filter: invert(95%) sepia(0%) saturate(343%) hue-rotate(219deg)
 		brightness(92%) contrast(86%);
 }
 
-/* .iconSquare button {
+/* .mediaquare button {
 	height: 130px;
 	width: 130px;
 } */

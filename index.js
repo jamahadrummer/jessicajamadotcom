@@ -17,20 +17,20 @@ headerLeftBtn.addEventListener('click', () => {
 	pageTurn('index.html');
 });
 
-iconBtn1.addEventListener('click', () => {
-	extLink('https://www.flickr.com/jamahadrummer');
-});
+// iconBtn1.addEventListener('click', () => {
+// 	extLink('https://www.flickr.com/jamahadrummer');
+// });
 
-iconBtn2.addEventListener('click', () => {
-	extLink('https://www.instagram.com/jamahadrummer');
-});
+// iconBtn2.addEventListener('click', () => {
+// 	extLink('https://www.instagram.com/jamahadrummer');
+// });
 
-iconBtn3.addEventListener('click', () => {
-	extLink('https://jamadaniel.wixsite.com/sound-designer');
-});
+// iconBtn3.addEventListener('click', () => {
+// 	extLink('https://jamadaniel.wixsite.com/sound-designer');
+// });
 
-iconBtn4.addEventListener('click', () => {
-	extLink('https://www.github.com/jamahadrummer');
-});
+// iconBtn4.addEventListener('click', () => {
+// 	extLink('https://www.github.com/jamahadrummer');
+// });
 
 console.log('End Script');
