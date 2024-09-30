@@ -137,6 +137,45 @@ a {
 	padding: 20px 0px;
 }
 
+.content3 {
+	display: flex;
+	margin: 0px;
+	min-width: 1050px;
+	flex-direction: column;
+	align-content: space-around;
+	background-color: #8575fb;
+	border: 5px solid red;
+	/* padding: 0 500px; */
+	/* gap: 40px; */
+	font-size: 42px;
+	font-weight: bold;
+}
+
+.content3title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-width: 1050px;
+	padding: 20px 0px;
+}
+
+.links {
+	display: inherit;
+}
+
+.icons {
+	display: flex;
+	justify-content: center;
+	gap: 100px;
+	padding: 20px 0 100px 0;
+}
+
+.iconContainer {
+	display: inherit;
+	flex-direction: column;
+}
+
 .media {
 	display: flex;
 	flex-direction: column;
@@ -203,33 +242,9 @@ a {
 	text-align: center;
 }
 
-.content3 {
-	background-color: #e5e7eb;
-	display: flex;
-	justify-content: space-around;
-	flex-direction: column;
-	min-width: 1050px;
-	text-align: center;
-	font-size: 36px;
-	font-style: italic;
-	color: #1f2937;
-	padding: 100px 0px;
-}
-
-.c3box1 {
-	display: inherit;
-	justify-content: center;
-	padding: 20px 0px;
-}
-
 .bodyText {
 	display: inherit;
 	width: 600px;
-}
-
-.c3box2 {
-	display: flex;
-	justify-content: center;
 }
 
 .attributeText {
