@@ -18,12 +18,13 @@
 	},
 	"homepage": "https://github.com/jamahadrummer/danieljamadotcom#readme",
 	"devDependencies": {
-		"@parcel/packager-raw-url": "^2.8.3",
-		"@parcel/transformer-webmanifest": "^2.8.3",
-		"eslint": "^8.33.0",
-		"parcel": "^2.8.3"
+		"@parcel/packager-raw-url": "latest",
+		"@parcel/transformer-webmanifest": "latest",
+		"eslint": "latest",
+		"parcel": "latest"
 	},
 	"dependencies": {
-		"@fortawesome/fontawesome-free": "^5.15.4"
+		"@fortawesome/fontawesome-free": "^5.15.4",
+		"simpledotcss": "^2.3.2"
 	}
 }
