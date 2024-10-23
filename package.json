@@ -1,7 +1,7 @@
 {
 	"name": "jessicajama.com",
 	"version": "1.0.1",
-	"description": "Basic landing page for my personal site danieljama.com",
+	"description": "Basic landing page for my wife's personal site jessicajama.com",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "parcel index.html",
@@ -9,14 +9,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/jamahadrummer/danieljamadotcom.git"
+		"url": "git+https://github.com/jamahadrummer/jessicajamadotcom"
 	},
 	"author": "Daniel Jama",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/jamahadrummer/danieljamadotcom/issues"
+		"url": "https://github.com/jamahadrummer/jessicajamadotcom/issues"
 	},
-	"homepage": "https://github.com/jamahadrummer/danieljamadotcom#readme",
+	"homepage": "https://github.com/jamahadrummer/jessicajamadotcom#readme",
 	"devDependencies": {
 		"@parcel/packager-raw-url": "latest",
 		"@parcel/transformer-webmanifest": "latest",
@@ -25,6 +25,6 @@
 	},
 	"dependencies": {
 		"@fortawesome/fontawesome-free": "^5.15.4",
-		"simpledotcss": "^2.3.2"
+		"simpledotcss": "latest"
 	}
 }
