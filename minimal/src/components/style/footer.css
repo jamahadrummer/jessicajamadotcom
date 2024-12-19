@@ -13,17 +13,17 @@
 	/* margin: 20px 0px; */
 	}
 
-.headerLeft {
+.footerLeft {
 	color: #e3bac6;
-	font-size: 48px;
+	font-size: 24px;
 	font-weight: bolder;
 	display: inherit;
     margin: 20px;
 	}
 
-.headerRight {
+.footerRight {
 	color: #e3bac6;
-	font-size: 28px;
+	font-size: 16px;
     margin: 20px;
     width: 300px;
     display: inherit;
@@ -31,12 +31,12 @@
     align-items: center;
 	}
 
-.headerRight div {
+.footerRight div {
     display: inherit;
     align-items: center;
 }
 
-.headerRight div a {
+.footerRight div a {
     display: flex;
     height: 100%;
 }
