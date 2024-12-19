@@ -5,6 +5,7 @@ body {
 	flex-direction: column;
 	min-width: 1050px;
 	margin: 0;
+	gap: 10px;
 }
 
 button {
@@ -28,7 +29,8 @@ nav {
 
 .content {
 	display: flex;
-	justify-content: space-around;
+	flex-direction: column;
+	align-content: space-evenly;
 	margin: 50px 0px;
 	min-width: 1050px;
 }
@@ -50,7 +52,6 @@ nav {
 .contentPhoto {
 	display: flex;
 	justify-content: center;
-	max-width: 900px;
 }
 
 .content1third {
@@ -63,4 +64,64 @@ nav {
 	width: 500px;
 	justify-content: center;
 	align-items: center;
+}
+.contentMedia {
+	display: inherit;
+	width: 560;
+	gap: 20px;
+	flex-direction: column;
+}
+
+.mediaContainer {
+	display: inherit;
+	gap: 20px
+	width: 560;
+	flex-direction: column;
+}
+
+.mediaBlock {
+	display: inherit;
+	/* height: 150px; */
+	/* width: 560px; */
+	/* background-color: black; */
+	/* border: 5px solid black; */
+	/* border-radius: 20px; */
+	justify-content: center;
+	align-items: center;
+}
+
+.mediaVid {
+	box-shadow: 2px 5px #1f2937;
+	border-radius: 30px;
+}
+
+.mediaBtn {
+	width: 560px;
+	font-size: 36px;
+	background-color: #5dfdcb;
+	border-radius: 30px;
+	padding: 5px;
+	box-shadow: 2px 5px #1f2937;
+}
+
+.mediaText {
+	font-size: 18px;
+	text-align: center;
+	padding: 10px 0px;
+}
+
+.media .box1 {
+	display: flex;
+	flex-direction: column;
+	font-size: 18px;
+	text-align: center;
+	width: 150px;
+}
+
+.mediaSquare:hover {
+	transform: scale(1.1);
+}
+
+.mediaSquare:active {
+	transform: scale(0.9);
 }

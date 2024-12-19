@@ -5,6 +5,8 @@ import { Image } from 'astro:assets';
 import Header from '../components/header.astro';
 import Footer from '../components/footer.astro';
 import ContentTitle from '../components/contentTitle.astro';
+import ContentPhoto from '../components/contentPhoto.astro';
+import ContentMedia from '../components/contentMedia.astro';
 ---
 
 <head>
@@ -40,16 +42,22 @@ import ContentTitle from '../components/contentTitle.astro';
 <Header>
 	<!-- Jessica Jama -->
 </Header>
-
 <ContentTitle>
 	Senior Product Manager at
 	<br />
 	<a href="https://www.hand2mind.com/">Hand2Mind</a> in Vernon Hills, Illinois
 </ContentTitle>
-
-<div class="content2">
-	<ContentTitle> Social Media Links </ContentTitle>
-	<div class="media">
+<ContentPhoto>
+	<Image
+		src="/src/assets/img/PurplePercy.png"
+		alt="A headshot of Jessica Jama"
+		width="250"
+		height="250"
+	/>
+</ContentPhoto>
+<div class="content">
+	<ContentTitle>Media</ContentTitle>
+	<ContentMedia>
 		<div class="mediaContainer">
 			<div class="mediaBlock">
 				<iframe
@@ -96,7 +104,7 @@ import ContentTitle from '../components/contentTitle.astro';
 			</div>
 			<div class="mediaText">2023 Toy Fair News Segment</div>
 		</div>
-	</div>
+	</ContentMedia>
 </div>
 
 <Footer>
