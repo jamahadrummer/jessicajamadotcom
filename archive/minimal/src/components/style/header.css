@@ -1,0 +1,42 @@
+.nav {
+	display: flex;
+	/* border: 2px solid white; */
+    justify-content: space-between;
+	background-color: #050826;
+	font-family: inherit;
+	}
+
+.navBox {
+	display: inherit;
+	justify-content: space-between;
+    flex-grow: 1;
+	/* margin: 20px 0px; */
+	}
+
+.headerLeft {
+	color: #e3bac6;
+	font-size: 48px;
+	font-weight: bolder;
+	display: inherit;
+    margin: 20px;
+	}
+
+.headerRight {
+	color: #e3bac6;
+	font-size: 28px;
+    margin: 20px;
+    width: 300px;
+    display: inherit;
+    justify-content: space-between;
+    align-items: center;
+	}
+
+.headerRight div {
+    display: inherit;
+    align-items: center;
+}
+
+.headerRight div a {
+    display: flex;
+    height: 100%;
+}
