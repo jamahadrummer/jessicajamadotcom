@@ -4,7 +4,7 @@ import '../styles/indexStyle.astro';
 import { Image } from 'astro:assets';
 import Header from '../components/header.astro';
 import Footer from '../components/footer.astro';
-import ContentBox from '../components/contentBox.astro';
+import ContentTitle from '../components/contentTitle.astro';
 ---
 
 <head>
@@ -41,12 +41,14 @@ import ContentBox from '../components/contentBox.astro';
 	<!-- Jessica Jama -->
 </Header>
 
-<ContentBox />
+<ContentTitle>
+	Senior Product Manager at
+	<br />
+	<a href="https://www.hand2mind.com/">Hand2Mind</a> in Vernon Hills, Illinois
+</ContentTitle>
 
 <div class="content2">
-	<div class="content2title">
-		<a href="/layoutTest/">Layout Test</a>
-	</div>
+	<ContentTitle> Social Media Links </ContentTitle>
 	<div class="media">
 		<div class="mediaContainer">
 			<div class="mediaBlock">
