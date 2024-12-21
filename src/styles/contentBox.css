@@ -5,7 +5,6 @@ body {
 	flex-direction: column;
 	min-width: 1050px;
 	margin: 0;
-	gap: 10px;
 }
 
 button {
@@ -52,6 +51,7 @@ nav {
 .contentPhoto {
 	display: flex;
 	justify-content: center;
+	margin: 10px;
 }
 
 .content1third {
@@ -67,6 +67,7 @@ nav {
 }
 .contentMedia {
 	display: inherit;
+	align-content: center;
 	width: 560;
 	gap: 20px;
 	flex-direction: column;
@@ -124,4 +125,14 @@ nav {
 
 .mediaSquare:active {
 	transform: scale(0.9);
+}
+
+.contentOne {
+	background-color: #8575fb;
+}
+
+.contentTwo {
+	display: flex;
+	flex-direction: column;
+	background-color: #e3bac6;
 }

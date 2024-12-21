@@ -4,9 +4,12 @@ import '../styles/indexStyle.astro';
 import { Image } from 'astro:assets';
 import Header from '../components/header.astro';
 import Footer from '../components/footer.astro';
+import ContentOne from '../components/contentOne.astro';
+import ContentTwo from '../components/contentTwo.astro';
 import ContentTitle from '../components/contentTitle.astro';
 import ContentPhoto from '../components/contentPhoto.astro';
 import ContentMedia from '../components/contentMedia.astro';
+import Icons from '../components/icons.astro';
 ---
 
 <head>
@@ -39,74 +42,77 @@ import ContentMedia from '../components/contentMedia.astro';
 	<script src="index.js" defer></script> -->
 </head>
 
-<Header>
-	<!-- Jessica Jama -->
-</Header>
-<ContentTitle>
-	Senior Product Manager at
+<Header />
+<ContentOne>
+	<ContentTitle>
+		Senior Product Manager at
+		<br />
+		<a href="https://www.hand2mind.com/">Hand2Mind</a> in Vernon Hills, Illinois
+	</ContentTitle>
 	<br />
-	<a href="https://www.hand2mind.com/">Hand2Mind</a> in Vernon Hills, Illinois
-</ContentTitle>
-<ContentPhoto>
-	<Image
-		src="/src/assets/img/PurplePercy.png"
-		alt="A headshot of Jessica Jama"
-		width="250"
-		height="250"
-	/>
-</ContentPhoto>
-<div class="content">
-	<ContentTitle>Media</ContentTitle>
-	<ContentMedia>
-		<div class="mediaContainer">
-			<div class="mediaBlock">
-				<iframe
-					class="mediaVid"
-					width="560"
-					height="315"
-					src="https://www.youtube.com/embed/Qvt712E3ynk?si=c57pMIBOmKN1svnL"
-					title="YouTube video player"
-					frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-					referrerpolicy="strict-origin-when-cross-origin"
-					allowfullscreen></iframe>
-			</div>
-			<div class="mediaText">2023 Toy Fair Panel</div>
+	<ContentPhoto>
+		<Image
+			src="/src/assets/img/PurplePercy.png"
+			alt="A headshot of Jessica Jama"
+			width="250"
+			height="250"
+		/>
+	</ContentPhoto>
+</ContentOne>
+<ContentTwo>
+	<ContentTitle>Links</ContentTitle>
+	<Icons />
+	<br />
+</ContentTwo>
+<ContentTitle>Media</ContentTitle>
+<br />
+<ContentMedia>
+	<div class="mediaContainer">
+		<div class="mediaBlock">
+			<iframe
+				class="mediaVid"
+				width="560"
+				height="315"
+				src="https://www.youtube.com/embed/Qvt712E3ynk?si=c57pMIBOmKN1svnL"
+				title="YouTube video player"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+				referrerpolicy="strict-origin-when-cross-origin"
+				allowfullscreen></iframe>
 		</div>
-		<div class="mediaContainer">
-			<div class="mediaBlock">
-				<button class="mediaBtn" id="mediaBtn2"
-					>Social Emtional Learning <br /> During the Holidays
-				</button>
-			</div>
-			<div class="mediaText">The Genius of Play Article</div>
+		<div class="mediaText">2023 Toy Fair Panel</div>
+	</div>
+	<div class="mediaContainer">
+		<div class="mediaBlock">
+			<button class="mediaBtn" id="mediaBtn2"
+				>Social Emtional Learning <br /> During the Holidays
+			</button>
 		</div>
-		<div class="mediaContainer">
-			<div class="mediaBlock">
-				<button class="mediaBtn" id="mediaBtn3"
-					>Why Self-Care and SEL <br /> Toys Are on the Rise
-				</button>
-			</div>
-			<div class="mediaText">Kidscreen Article</div>
+		<div class="mediaText">The Genius of Play Article</div>
+	</div>
+	<div class="mediaContainer">
+		<div class="mediaBlock">
+			<button class="mediaBtn" id="mediaBtn3"
+				>Why Self-Care and SEL <br /> Toys Are on the Rise
+			</button>
 		</div>
-		<div class="mediaContainer">
-			<div class="mediaBlock">
-				<iframe
-					class="mediaVid"
-					width="560"
-					height="315"
-					src="https://www.youtube.com/embed/i69taU9hGmw?si=pMAhi0MJ0hrSD3Hi&start=123"
-					title="YouTube video player"
-					frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-					referrerpolicy="strict-origin-when-cross-origin"
-					allowfullscreen></iframe>
-			</div>
-			<div class="mediaText">2023 Toy Fair News Segment</div>
+		<div class="mediaText">Kidscreen Article</div>
+	</div>
+	<div class="mediaContainer">
+		<div class="mediaBlock">
+			<iframe
+				class="mediaVid"
+				width="560"
+				height="315"
+				src="https://www.youtube.com/embed/i69taU9hGmw?si=pMAhi0MJ0hrSD3Hi&start=123"
+				title="YouTube video player"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+				referrerpolicy="strict-origin-when-cross-origin"
+				allowfullscreen></iframe>
 		</div>
-	</ContentMedia>
-</div>
+		<div class="mediaText">2023 Toy Fair News Segment</div>
+	</div>
+</ContentMedia>
 
-<Footer>
-	<!-- 2025 -->
-</Footer>
+<Footer />

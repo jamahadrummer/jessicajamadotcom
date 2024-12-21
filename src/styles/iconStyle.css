@@ -1,0 +1,21 @@
+.iconContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.iconSquare {
+	display: flex;
+	/* background-color: #8575fb; */
+	width: 100px;
+	border-radius: 5px;
+}
+
+.iconBtn {
+	display: flex;
+	justify-content: center;
+}
+
+.iconText {
+	font-size: 18px;
+}
