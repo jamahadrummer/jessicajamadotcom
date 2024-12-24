@@ -5,7 +5,7 @@ import '../styles/iconStyle.css';
 
 <div class="iconContainer">
 	<div class="iconSquare">
-		<button class="iconBtn" id="iconBtn2">
+		<button class="iconBtn" linked-In-Button>
 			<Image
 				src="/src/assets/img/linkedin.svg"
 				alt="Instagram Logo External Link"
@@ -17,3 +17,10 @@ import '../styles/iconStyle.css';
 	</div>
 	<div class="iconText">LinkedIn</div>
 </div>
+
+<script>
+	const linkedInButton = document.querySelectorAll('linked-In-Button');
+	linkedInButton.addEventListener('click', () => {
+		extLink('https://www.linkedin.com/in/jessica-jama-28212898/');
+	});
+</script>
