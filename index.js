@@ -18,7 +18,7 @@ headerLeftBtn.addEventListener('click', () => {
 });
 
 iconBtn1.addEventListener('click', () => {
-	extLink('https://www.linkedin.com/in/jessica-jama-28212898/');
+	extLink('https://linkedin.com/in/jessica-jama-28212898');
 });
 
 mediaBtn2.addEventListener('click', () => {
