@@ -20,7 +20,8 @@
 	"devDependencies": {
 		"@parcel/packager-raw-url": "latest",
 		"@parcel/transformer-webmanifest": "latest",
-		"parcel": "latest"
+		"parcel": "latest",
+		"svgo": "^3.3.2"
 	},
 	"dependencies": {
 		"@fortawesome/fontawesome-free": "^5.15.4"
