@@ -76,6 +76,7 @@ a {
 	flex-direction: column;
 	gap: 5px;
 	justify-content: space-around;
+	align-items: center;
 }
 
 .content1title {
@@ -86,7 +87,7 @@ a {
 }
 
 .content1photo {
-	max-width: 900px;
+	max-width: 341px;
 }
 
 .content1third {
@@ -119,7 +120,7 @@ a {
 	margin: 0px;
 	min-width: 1050px;
 	flex-direction: column;
-	align-content: space-around;
+	align-items: center;
 	background-color: #e3bac6;
 	/* border: 5px solid red; */
 	/* padding: 0 500px; */
@@ -144,7 +145,7 @@ a {
 	flex-direction: column;
 	align-content: space-around;
 	background-color: #8575fb;
-	border: 5px solid red;
+	/* border: 5px solid red; */
 	/* padding: 0 500px; */
 	/* gap: 40px; */
 	font-size: 42px;
@@ -167,13 +168,54 @@ a {
 .icons {
 	display: flex;
 	justify-content: center;
-	gap: 100px;
-	padding: 20px 0 100px 0;
+	gap: 30px;
 }
 
 .iconContainer {
 	display: inherit;
 	flex-direction: column;
+}
+
+.iconSquare {
+	display: inherit;
+	height: 150px;
+	width: 150px;
+	background-color: black;
+	border: 5px solid black;
+	border-radius: 20px;
+	justify-content: center;
+	align-items: center;
+}
+
+.iconBtn {
+	width: 140px;
+}
+
+.iconText {
+	font-size: 24px;
+	text-align: center;
+	padding: 10px 0px;
+}
+
+.icons .box1 {
+	display: flex;
+	flex-direction: column;
+	font-size: 18px;
+	text-align: center;
+	width: 150px;
+}
+
+.iconSquare:hover {
+	transform: scale(1.1);
+}
+
+.iconSquare:active {
+	transform: scale(0.9);
+}
+
+.iconBtn img {
+	filter: invert(95%) sepia(0%) saturate(343%) hue-rotate(219deg)
+		brightness(92%) contrast(86%);
 }
 
 .media {
