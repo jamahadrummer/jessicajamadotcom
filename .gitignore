@@ -116,3 +116,6 @@ dist
 .tern-port
 *.mdb
 .parcel-cache/data.mdb
+
+.astro
+/archive/
