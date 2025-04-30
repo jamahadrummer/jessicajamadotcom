@@ -1,5 +1,7 @@
+@import url('https://uchu.style/color.css');
+
 body {
-	background-color: #fde8e9;
+	background-color: var(--uchu-purple);
 	font-family: sans-serif;
 	display: flex;
 	flex-direction: column;
@@ -12,7 +14,7 @@ button {
 	background: none;
 	box-shadow: none;
 	border-radius: 6px;
-	font-family: sans-serif;
+	font-family: inherit;
 }
 
 a {
@@ -21,30 +23,29 @@ a {
 }
 
 nav {
-	display: flex;
+	display: inherit;
 	flex-direction: row;
 	justify-content: space-between;
 }
 
 header {
 	display: flex;
-
 	align-items: center;
-	/* border: 5px solid white; */
+	justify-content: center;
 	min-width: 1050px;
-	background-color: #050826;
+	background-color: var(--uchu-yin);
 	font-family: inherit;
 }
 
-.hbox {
+.hBox {
 	display: flex;
+	flex-grow: 1;
 	justify-content: space-between;
-	width: 1200px;
-	margin: 20px 0px;
+	margin: 20px 20px;
 }
 
 .headerLeft {
-	color: #e3bac6;
+	color: var(--uchu-purple);
 	font-size: 48px;
 	font-weight: bolder;
 	display: flex;
@@ -54,21 +55,27 @@ header {
 }
 
 .headerRight {
-	/* margin-right: 16px; */
-	display: flex;
-	color: #e3bac6;
+	display: inherit;
+	color: var(--uchu-purple);
 	font-size: 18px;
-	/* display: flex;
-	flex-direction: column;
-	justify-content: space-around; */
+	gap: 20px;
+	align-items: center;
 }
 
-.header ul {
-	display: flex;
-	gap: 16px;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+.headerRight div {
+	display: inherit;
+	justify-content: center;
+	align-content: center;
+}
+.headerRightBtn {
+	min-width: 90px;
+	flex-grow: 1;
+	padding: 8px;
+	font: inherit;
+	font-weight: bold;
+	color: var(--uchu-purple);
+	background-color: var(--uchu-gray);
+	font-family: inherit;
 }
 
 .content1 {
@@ -88,17 +95,17 @@ header {
 	text-align: center;
 	font-size: 32px;
 	font-weight: bolder;
-	color: #050826;
+	color: var(--uchu-yin);
 }
 
 .content1photo {
 	max-width: 900px;
 }
 
-.content1third {
+/* .content1third {
 	font-size: 24px;
-	color: #050826;
-}
+	color: var(--uchu-dark-blue);
+} */
 
 .content1box2 {
 	display: flex;
@@ -108,7 +115,7 @@ header {
 }
 
 .signUp {
-	background-color: #3882f6;
+	background-color: var(--uchu-dark-blue);
 	padding: 4px 30px;
 	color: #e5e7eb;
 	font-weight: bold;
@@ -126,7 +133,7 @@ header {
 	min-width: 1050px;
 	flex-direction: column;
 	align-content: space-around;
-	background-color: #e3bac6;
+	background-color: var(--uchu-dark-blue);
 	/* border: 5px solid red; */
 	/* padding: 0 500px; */
 	/* gap: 40px; */
@@ -149,8 +156,9 @@ header {
 	min-width: 1050px;
 	flex-direction: column;
 	align-content: space-around;
-	background-color: #8575fb;
-	border: 5px solid red;
+	background-color: var(--uchu-dark-gray);
+	/* border: 5px solid red; */
+	color: var(--uchu-yin);
 	/* padding: 0 500px; */
 	/* gap: 40px; */
 	font-size: 42px;
