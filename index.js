@@ -29,4 +29,8 @@ mediaBtn3.addEventListener('click', () => {
 	extLink('https://kidscreen.com/2023/09/29/why-self-care-and-sel-toys-are-on-the-rise/');
 });
 
+mediaBtn4.addEventListener('click', () => {
+	extLink('https://www.wbez.org/reset-with-sasha-ann-simons/2022/12/13/the-benefits-of-social-and-emotional-learning-toys');
+});
+
 console.log('End Script');
