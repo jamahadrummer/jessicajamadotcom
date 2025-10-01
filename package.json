@@ -18,8 +18,8 @@
 	},
 	"homepage": "https://github.com/jamahadrummer/jessicajamadotcom#readme",
 	"devDependencies": {
-		"@parcel/packager-raw-url": "latest",
-		"@parcel/transformer-webmanifest": "latest",
+		"@parcel/packager-raw-url": "^2.16.0",
+		"@parcel/transformer-webmanifest": "^2.16.0",
 		"eslint": "latest",
 		"parcel": "latest"
 	},
