@@ -1,9 +1,9 @@
 console.log('Start Script');
 const headerLeftBtn = document.getElementById('headerLeftBtn');
-const iconBtn1 = document.getElementById('iconBtn1');
-const iconBtn2 = document.getElementById('iconBtn2');
-const iconBtn3 = document.getElementById('iconBtn3');
-const iconBtn4 = document.getElementById('iconBtn4');
+const prodBtn1 = document.getElementById('prodBtn1');
+const prodBtn2 = document.getElementById('prodBtn2');
+const prodBtn3 = document.getElementById('prodBtn3');
+const prodBtn4 = document.getElementById('prodBtn4');
 
 const pageTurn = (pageName) => {
 	location.href = pageName;
@@ -17,8 +17,20 @@ headerLeftBtn.addEventListener('click', () => {
 	pageTurn('index.html');
 });
 
-iconBtn1.addEventListener('click', () => {
-	extLink('https://linkedin.com/in/jessica-jama-28212898');
+prodBtn1.addEventListener('click', () => {
+	pageTurn('products.html');
+});
+
+prodBtn2.addEventListener('click', () => {
+	pageTurn('products.html');
+});
+
+prodBtn3.addEventListener('click', () => {
+	pageTurn('products.html');
+});
+
+prodBtn4.addEventListener('click', () => {
+	pageTurn('products.html');
 });
 
 mediaBtn2.addEventListener('click', () => {
