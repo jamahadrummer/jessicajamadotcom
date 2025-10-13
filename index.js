@@ -1,4 +1,7 @@
 console.log('Start Script');
+
+var numberBlockProducts = 23
+
 const headerLeftBtn = document.getElementById('headerLeftBtn');
 const prodBtn1 = document.getElementById('prodBtn1');
 const prodBtn2 = document.getElementById('prodBtn2');
@@ -13,16 +16,27 @@ const extLink = (pageURL) => {
 	window.open(pageURL, '_blank');
 };
 
+// const createVariables = () => {
+// 	var ids = [];
+// 	for (var i = 1; i <= numberBlockProducts; ++i) {
+// 		document.getElementById('pBtn' + i)
+// 	}
+
+// 	return ids;
+// }
+
+
+
 headerLeftBtn.addEventListener('click', () => {
 	pageTurn('index.html');
 });
 
 prodBtn1.addEventListener('click', () => {
-	pageTurn('products.html');
+	pageTurn('products.html#numberblocks');
 });
 
 prodBtn2.addEventListener('click', () => {
-	pageTurn('products.html');
+	pageTurn('products.html#socialemotional');
 });
 
 prodBtn3.addEventListener('click', () => {
@@ -44,5 +58,11 @@ mediaBtn3.addEventListener('click', () => {
 mediaBtn4.addEventListener('click', () => {
 	extLink('https://www.wbez.org/reset-with-sasha-ann-simons/2022/12/13/the-benefits-of-social-and-emotional-learning-toys');
 });
+
+// ids[0].addEventListener('click', () => {
+// 	extLink('https://www.hand2mind.com/item/numberblocks-blockzee-balance-activity-set')
+// }) 
+
+
 
 console.log('End Script');

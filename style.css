@@ -7,6 +7,10 @@ body {
 	margin: 0;
 }
 
+sup {
+	font-size: small;
+}
+
 button {
 	border: 0;
 	background: none;
@@ -25,7 +29,7 @@ a {
 	justify-content: center;
 	align-items: center;
 	/* border: 5px solid white; */
-	min-width: 1220px;
+	/* min-width: 1220px; */
 	background-color: #1e152a;
 	font-family: inherit;
 }
@@ -69,7 +73,7 @@ a {
 	display: flex;
 	justify-content: space-around;
 	margin: 20px 0px;
-	min-width: 1220px;
+	/* min-width: 1220px; */
 }
 
 .contentAbox {
@@ -135,8 +139,9 @@ a {
 .contentB {
 	display: flex;
 	margin: 0px;
-	min-width: 1220px;
+	/* min-width: 1220px; */
 	flex-direction: column;
+	flex-wrap: wrap;
 	justify-content: space-evenly;
 	background-color: #1e152a;
 	/* border: 5px solid red; */
@@ -158,6 +163,7 @@ a {
 .cBIcons {
 	display: inherit;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .icons {
