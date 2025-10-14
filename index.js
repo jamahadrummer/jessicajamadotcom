@@ -40,11 +40,11 @@ prodBtn2.addEventListener('click', () => {
 });
 
 prodBtn3.addEventListener('click', () => {
-	pageTurn('products.html');
+	pageTurn('products.html#literacy');
 });
 
 prodBtn4.addEventListener('click', () => {
-	pageTurn('products.html');
+	pageTurn('products.html#math');
 });
 
 mediaBtn2.addEventListener('click', () => {
