@@ -17,9 +17,9 @@ const extLink = (pageURL) => {
 };
 
 const numberblocksWrapper = document.getElementById('numberblocks');
-const socialEmotionalWrapper = document.getElementById('socialEmotional');
-const literacyWrapper = document.getElementById('literacy');
-const mathWrapper = document.getElementById('math');
+// const socialEmotionalWrapper = document.getElementById('socialEmotional');
+// const literacyWrapper = document.getElementById('literacy');
+// const mathWrapper = document.getElementById('math');
 
 numberblocksWrapper.addEventListener('click', (event) => {
 	const isButton = event.target.nodeName === 'BUTTON';
@@ -30,32 +30,32 @@ numberblocksWrapper.addEventListener('click', (event) => {
 	console.dir(event.target.id);
 })
 
-socialEmotionalWrapper.addEventListener('click', (event) => {
-	const isButton = event.target.nodeName === 'BUTTON';
-	if (!isButton) {
-		return;
-	}
+// socialEmotionalWrapper.addEventListener('click', (event) => {
+// 	const isButton = event.target.nodeName === 'BUTTON';
+// 	if (!isButton) {
+// 		return;
+// 	}
 
-	console.dir(event.target.id);
-})
+// 	console.dir(event.target.id);
+// })
 
-literacyWrapper.addEventListener('click', (event) => {
-	const isButton = event.target.nodeName === 'BUTTON';
-	if (!isButton) {
-		return;
-	}
+// literacyWrapper.addEventListener('click', (event) => {
+// 	const isButton = event.target.nodeName === 'BUTTON';
+// 	if (!isButton) {
+// 		return;
+// 	}
 
-	console.dir(event.target.id);
-})
+// 	console.dir(event.target.id);
+// })
 
-mathWrapper.addEventListener('click', (event) => {
-	const isButton = event.target.nodeName === 'BUTTON';
-	if (!isButton) {
-		return;
-	}
+// mathWrapper.addEventListener('click', (event) => {
+// 	const isButton = event.target.nodeName === 'BUTTON';
+// 	if (!isButton) {
+// 		return;
+// 	}
 
-	console.dir(event.target.id);
-})
+// 	console.dir(event.target.id);
+// })
 
 
 headerLeftBtn.addEventListener('click', () => {
