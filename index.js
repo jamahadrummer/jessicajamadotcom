@@ -1,11 +1,8 @@
 console.log('Start Script');
 
-
-const headerLeftBtn = document.getElementById('headerLeftBtn');
-const prodBtn1 = document.getElementById('prodBtn1');
-const prodBtn2 = document.getElementById('prodBtn2');
-const prodBtn3 = document.getElementById('prodBtn3');
-const prodBtn4 = document.getElementById('prodBtn4');
+const headerLeft = document.getElementsByClassName('headerLeft');
+const prodBtn = document.getElementsByClassName('prodBtn');
+const mediaBtn = document.getElementsByClassName('mediaBtn');
 
 const pageTurn = (pageName) => {
 	location.href = pageName;
@@ -15,23 +12,23 @@ const extLink = (pageURL) => {
 	window.open(pageURL, '_blank');
 };
 
-headerLeftBtn.addEventListener('click', () => {
+headerLeft.headerLeftBtn.addEventListener('click', () => {
 	pageTurn('index.html');
 });
 
-prodBtn1.addEventListener('click', () => {
+prodBtn.prodBtn1.addEventListener('click', () => {
 	pageTurn('products.html#numberblocksTitle');
 });
 
-prodBtn2.addEventListener('click', () => {
+prodBtn.prodBtn2.addEventListener('click', () => {
 	pageTurn('products.html#socialemotionalTitle');
 });
 
-prodBtn3.addEventListener('click', () => {
+prodBtn.prodBtn3.addEventListener('click', () => {
 	pageTurn('products.html#literacyTitle');
 });
 
-prodBtn4.addEventListener('click', () => {
+prodBtn.prodBtn4.addEventListener('click', () => {
 	pageTurn('products.html#mathTitle');
 });
 
@@ -46,11 +43,5 @@ mediaBtn3.addEventListener('click', () => {
 mediaBtn4.addEventListener('click', () => {
 	extLink('https://www.wbez.org/reset-with-sasha-ann-simons/2022/12/13/the-benefits-of-social-and-emotional-learning-toys');
 });
-
-// ids[0].addEventListener('click', () => {
-// 	extLink('https://www.hand2mind.com/item/numberblocks-blockzee-balance-activity-set')
-// }) 
-
-
 
 console.log('End Script');

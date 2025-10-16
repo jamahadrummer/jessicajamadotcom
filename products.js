@@ -1,12 +1,13 @@
 console.log('Start Script');
 
+
+const headerLeft = document.getElementsByClassName('headerLeft')
+const prodBtn = document.getElementsByClassName('prodBtn');
+
 var numberblocks = require("./data/numberblocks.json")
 var socialEmotional = require("./data/socialEmotional.json")
 var literacy = require("./data/literacy.json")
 var math = require("./data/math.json")
-
-
-const headerLeftBtn = document.getElementById('headerLeftBtn');
 
 const pageTurn = (pageName) => {
 	location.href = pageName;
@@ -16,219 +17,177 @@ const extLink = (pageURL) => {
 	window.open(pageURL, '_blank');
 };
 
-const numberblocksWrapper = document.getElementById('numberblocks');
-// const socialEmotionalWrapper = document.getElementById('socialEmotional');
-// const literacyWrapper = document.getElementById('literacy');
-// const mathWrapper = document.getElementById('math');
-
-numberblocksWrapper.addEventListener('click', (event) => {
-	const isButton = event.target.nodeName === 'BUTTON';
-	if (!isButton) {
-		return;
-	}
-
-	console.dir(event.target.id);
-})
-
-// socialEmotionalWrapper.addEventListener('click', (event) => {
-// 	const isButton = event.target.nodeName === 'BUTTON';
-// 	if (!isButton) {
-// 		return;
-// 	}
-
-// 	console.dir(event.target.id);
-// })
-
-// literacyWrapper.addEventListener('click', (event) => {
-// 	const isButton = event.target.nodeName === 'BUTTON';
-// 	if (!isButton) {
-// 		return;
-// 	}
-
-// 	console.dir(event.target.id);
-// })
-
-// mathWrapper.addEventListener('click', (event) => {
-// 	const isButton = event.target.nodeName === 'BUTTON';
-// 	if (!isButton) {
-// 		return;
-// 	}
-
-// 	console.dir(event.target.id);
-// })
-
-
-headerLeftBtn.addEventListener('click', () => {
+headerLeft.headerLeftBtn.addEventListener('click', () => {
 	pageTurn('index.html');
 });
 
-pBtn1.addEventListener('click', () => {
-	extLink(numberblocks.pBtn1.hyperlink);
+prodBtn.prodBtn1.addEventListener('click', () => {
+	extLink(numberblocks.prodBtn1.hyperlink);
 });
-pBtn2.addEventListener('click', () => {
-	extLink(numberblocks.pBtn2.hyperlink);
+prodBtn.prodBtn2.addEventListener('click', () => {
+	extLink(numberblocks.prodBtn2.hyperlink);
 });
-pBtn3.addEventListener('click', () => {
-	extLink(numberblocks.pBtn3.hyperlink);
+prodBtn.prodBtn3.addEventListener('click', () => {
+	extLink(numberblocks.prodBtn3.hyperlink);
 });
-pBtn4.addEventListener('click', () => {
-	extLink(numberblocks.pBtn4.hyperlink);
+prodBtn.prodBtn4.addEventListener('click', () => {
+	extLink(numberblocks.prodBtn4.hyperlink);
 });
-pBtn5.addEventListener('click', () => {
-	extLink(numberblocks.pBtn5.hyperlink);
+prodBtn.prodBtn5.addEventListener('click', () => {
+	extLink(numberblocks.prodBtn5.hyperlink);
 });
-pBtn6.addEventListener('click', () => {
-	extLink(numberblocks.pBtn6.hyperlink);
+prodBtn.prodBtn6.addEventListener('click', () => {
+	extLink(numberblocks.prodBtn6.hyperlink);
 });
-pBtn7.addEventListener('click', () => {
-	extLink(numberblocks.pBtn7.hyperlink);
+prodBtn.prodBtn7.addEventListener('click', () => {
+	extLink(numberblocks.prodBtn7.hyperlink);
 });
-pBtn8.addEventListener('click', () => {
-	extLink(numberblocks.pBtn8.hyperlink);
+prodBtn.prodBtn8.addEventListener('click', () => {
+	extLink(numberblocks.prodBtn8.hyperlink);
 });
-pBtn9.addEventListener('click', () => {
-	extLink(numberblocks.pBtn9.hyperlink);
+prodBtn.prodBtn9.addEventListener('click', () => {
+	extLink(numberblocks.prodBtn9.hyperlink);
 })
-pBtn10.addEventListener('click', () => {
-	extLink(numberblocks.pBtn10.hyperlink);
+prodBtn.prodBtn10.addEventListener('click', () => {
+	extLink(numberblocks.prodBtn10.hyperlink);
 });
-pBtn11.addEventListener('click', () => {
-	extLink(numberblocks.pBtn11.hyperlink);
+prodBtn.prodBtn11.addEventListener('click', () => {
+	extLink(numberblocks.prodBtn11.hyperlink);
 });
-pBtn12.addEventListener('click', () => {
-	extLink(numberblocks.pBtn12.hyperlink);
+prodBtn.prodBtn12.addEventListener('click', () => {
+	extLink(numberblocks.prodBtn12.hyperlink);
 });
-pBtn13.addEventListener('click', () => {
-	extLink(numberblocks.pBtn13.hyperlink);
+prodBtn.prodBtn13.addEventListener('click', () => {
+	extLink(numberblocks.prodBtn13.hyperlink);
 });
-pBtn14.addEventListener('click', () => {
-	extLink(numberblocks.pBtn14.hyperlink);
+prodBtn.prodBtn14.addEventListener('click', () => {
+	extLink(numberblocks.prodBtn14.hyperlink);
 });
-pBtn15.addEventListener('click', () => {
-	extLink(numberblocks.pBtn15.hyperlink);
+prodBtn.prodBtn15.addEventListener('click', () => {
+	extLink(numberblocks.prodBtn15.hyperlink);
 });
-pBtn16.addEventListener('click', () => {
-	extLink(numberblocks.pBtn16.hyperlink);
+prodBtn.prodBtn16.addEventListener('click', () => {
+	extLink(numberblocks.prodBtn16.hyperlink);
 });
-pBtn17.addEventListener('click', () => {
-	extLink(numberblocks.pBtn17.hyperlink);
+prodBtn.prodBtn17.addEventListener('click', () => {
+	extLink(numberblocks.prodBtn17.hyperlink);
 });
-pBtn18.addEventListener('click', () => {
-	extLink(numberblocks.pBtn18.hyperlink);
+prodBtn.prodBtn18.addEventListener('click', () => {
+	extLink(numberblocks.prodBtn18.hyperlink);
 });
-pBtn19.addEventListener('click', () => {
-	extLink(numberblocks.pBtn19.hyperlink);
+prodBtn.prodBtn19.addEventListener('click', () => {
+	extLink(numberblocks.prodBtn19.hyperlink);
 });
-pBtn20.addEventListener('click', () => {
-	extLink(numberblocks.pBtn20.hyperlink);
+prodBtn.prodBtn20.addEventListener('click', () => {
+	extLink(numberblocks.prodBtn20.hyperlink);
 });
-pBtn21.addEventListener('click', () => {
-	extLink(numberblocks.pBtn21.hyperlink);
+prodBtn.prodBtn21.addEventListener('click', () => {
+	extLink(numberblocks.prodBtn21.hyperlink);
 });
-pBtn22.addEventListener('click', () => {
-	extLink(numberblocks.pBtn22.hyperlink);
+prodBtn.prodBtn22.addEventListener('click', () => {
+	extLink(numberblocks.prodBtn22.hyperlink);
 });
-pBtn23.addEventListener('click', () => {
-	extLink(numberblocks.pBtn23.hyperlink);
+prodBtn.prodBtn23.addEventListener('click', () => {
+	extLink(numberblocks.prodBtn23.hyperlink);
 });
-pBtn24.addEventListener('click', () => {
-	extLink(socialEmotional.pBtn24.hyperlink);
+prodBtn.prodBtn24.addEventListener('click', () => {
+	extLink(socialEmotional.prodBtn24.hyperlink);
 });
-pBtn25.addEventListener('click', () => {
-	extLink(socialEmotional.pBtn25.hyperlink);
+prodBtn.prodBtn25.addEventListener('click', () => {
+	extLink(socialEmotional.prodBtn25.hyperlink);
 });
-pBtn26.addEventListener('click', () => {
-	extLink(socialEmotional.pBtn26.hyperlink);
+prodBtn.prodBtn26.addEventListener('click', () => {
+	extLink(socialEmotional.prodBtn26.hyperlink);
 });
-pBtn27.addEventListener('click', () => {
-	extLink(socialEmotional.pBtn27.hyperlink);
+prodBtn.prodBtn27.addEventListener('click', () => {
+	extLink(socialEmotional.prodBtn27.hyperlink);
 });
-pBtn28.addEventListener('click', () => {
-	extLink(socialEmotional.pBtn28.hyperlink);
+prodBtn.prodBtn28.addEventListener('click', () => {
+	extLink(socialEmotional.prodBtn28.hyperlink);
 });
-pBtn29.addEventListener('click', () => {
-	extLink(socialEmotional.pBtn29.hyperlink);
+prodBtn.prodBtn29.addEventListener('click', () => {
+	extLink(socialEmotional.prodBtn29.hyperlink);
 });
-pBtn30.addEventListener('click', () => {
-	extLink(socialEmotional.pBtn30.hyperlink);
+prodBtn.prodBtn30.addEventListener('click', () => {
+	extLink(socialEmotional.prodBtn30.hyperlink);
 });
-pBtn31.addEventListener('click', () => {
-	extLink(socialEmotional.pBtn31.hyperlink);
+prodBtn.prodBtn31.addEventListener('click', () => {
+	extLink(socialEmotional.prodBtn31.hyperlink);
 });
-pBtn32.addEventListener('click', () => {
-	extLink(socialEmotional.pBtn32.hyperlink);
+prodBtn.prodBtn32.addEventListener('click', () => {
+	extLink(socialEmotional.prodBtn32.hyperlink);
 });
-pBtn33.addEventListener('click', () => {
-	extLink(socialEmotional.pBtn33.hyperlink);
+prodBtn.prodBtn33.addEventListener('click', () => {
+	extLink(socialEmotional.prodBtn33.hyperlink);
 });
-pBtn34.addEventListener('click', () => {
-	extLink(socialEmotional.pBtn34.hyperlink);
+prodBtn.prodBtn34.addEventListener('click', () => {
+	extLink(socialEmotional.prodBtn34.hyperlink);
 });
-pBtn35.addEventListener('click', () => {
-	extLink(socialEmotional.pBtn35.hyperlink);
+prodBtn.prodBtn35.addEventListener('click', () => {
+	extLink(socialEmotional.prodBtn35.hyperlink);
 });
-pBtn36.addEventListener('click', () => {
-	extLink(socialEmotional.pBtn36.hyperlink);
+prodBtn.prodBtn36.addEventListener('click', () => {
+	extLink(socialEmotional.prodBtn36.hyperlink);
 });
-pBtn37.addEventListener('click', () => {
-	extLink(socialEmotional.pBtn37.hyperlink);
+prodBtn.prodBtn37.addEventListener('click', () => {
+	extLink(socialEmotional.prodBtn37.hyperlink);
 });
-pBtn38.addEventListener('click', () => {
-	extLink(socialEmotional.pBtn38.hyperlink);
+prodBtn.prodBtn38.addEventListener('click', () => {
+	extLink(socialEmotional.prodBtn38.hyperlink);
 });
-pBtn39.addEventListener('click', () => {
-	extLink(literacy.pBtn39.hyperlink);
+prodBtn.prodBtn39.addEventListener('click', () => {
+	extLink(literacy.prodBtn39.hyperlink);
 })
-pBtn40.addEventListener('click', () => {
-	extLink(literacy.pBtn40.hyperlink);
+prodBtn.prodBtn40.addEventListener('click', () => {
+	extLink(literacy.prodBtn40.hyperlink);
 });
-pBtn41.addEventListener('click', () => {
-	extLink(literacy.pBtn41.hyperlink);
+prodBtn.prodBtn41.addEventListener('click', () => {
+	extLink(literacy.prodBtn41.hyperlink);
 });
-pBtn42.addEventListener('click', () => {
-	extLink(literacy.pBtn42.hyperlink);
+prodBtn.prodBtn42.addEventListener('click', () => {
+	extLink(literacy.prodBtn42.hyperlink);
 });
-pBtn43.addEventListener('click', () => {
-	extLink(literacy.pBtn43.hyperlink);
+prodBtn.prodBtn43.addEventListener('click', () => {
+	extLink(literacy.prodBtn43.hyperlink);
 });
-pBtn44.addEventListener('click', () => {
-	extLink(literacy.pBtn44.hyperlink);
+prodBtn.prodBtn44.addEventListener('click', () => {
+	extLink(literacy.prodBtn44.hyperlink);
 });
-pBtn45.addEventListener('click', () => {
-	extLink(literacy.pBtn45.hyperlink);
+prodBtn.prodBtn45.addEventListener('click', () => {
+	extLink(literacy.prodBtn45.hyperlink);
 });
-pBtn46.addEventListener('click', () => {
-	extLink(literacy.pBtn46.hyperlink);
+prodBtn.prodBtn46.addEventListener('click', () => {
+	extLink(literacy.prodBtn46.hyperlink);
 });
-pBtn47.addEventListener('click', () => {
-	extLink(literacy.pBtn47.hyperlink);
+prodBtn.prodBtn47.addEventListener('click', () => {
+	extLink(literacy.prodBtn47.hyperlink);
 });
-pBtn48.addEventListener('click', () => {
-	extLink(literacy.pBtn48.hyperlink);
+prodBtn.prodBtn48.addEventListener('click', () => {
+	extLink(literacy.prodBtn48.hyperlink);
 });
-pBtn49.addEventListener('click', () => {
-	extLink(literacy.pBtn49.hyperlink);
+prodBtn.prodBtn49.addEventListener('click', () => {
+	extLink(literacy.prodBtn49.hyperlink);
 })
-pBtn50.addEventListener('click', () => {
-	extLink(literacy.pBtn50.hyperlink);
+prodBtn.prodBtn50.addEventListener('click', () => {
+	extLink(literacy.prodBtn50.hyperlink);
 });
-pBtn51.addEventListener('click', () => {
-	extLink(literacy.pBtn51.hyperlink);
+prodBtn.prodBtn51.addEventListener('click', () => {
+	extLink(literacy.prodBtn51.hyperlink);
 });
-pBtn52.addEventListener('click', () => {
-	extLink(math.pBtn52.hyperlink);
+prodBtn.prodBtn52.addEventListener('click', () => {
+	extLink(math.prodBtn52.hyperlink);
 });
-pBtn53.addEventListener('click', () => {
-	extLink(math.pBtn53.hyperlink);
+prodBtn.prodBtn53.addEventListener('click', () => {
+	extLink(math.prodBtn53.hyperlink);
 });
-pBtn54.addEventListener('click', () => {
-	extLink(math.pBtn54.hyperlink);
+prodBtn.prodBtn54.addEventListener('click', () => {
+	extLink(math.prodBtn54.hyperlink);
 });
-pBtn55.addEventListener('click', () => {
-	extLink(math.pBtn55.hyperlink);
+prodBtn.prodBtn55.addEventListener('click', () => {
+	extLink(math.prodBtn55.hyperlink);
 });
-pBtn56.addEventListener('click', () => {
-	extLink(math.pBtn56.hyperlink);
+prodBtn.prodBtn56.addEventListener('click', () => {
+	extLink(math.prodBtn56.hyperlink);
 });
 
 console.log('End Script');

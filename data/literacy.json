@@ -1,65 +1,65 @@
 {
-    "pBtn39": {
+    "prodBtn39": {
         "name": "Reading Rods<sup>�</sup> Alphabet & Phonemic Awareness",
         "photoPath": "./img/literacy/readingRodsAlphabetPhonemic500x500.png",
         "hyperlink": "https://www.hand2mind.com/item/reading-rods-alphabet-phonemic-awareness"
     },
-    "pBtn40": {
+    "prodBtn40": {
         "name": "Reading Rods<sup>�</sup> Alphabet & CVC Words",
         "photoPath": "./img/literacy/readingRodsAlphabetCVC500x500.png",
         "hyperlink": "https://www.hand2mind.com/item/reading-rods-alphabet-cvc-words"
     },
-    "pBtn41": {
+    "prodBtn41": {
         "name": "Reading Rods<sup>�</sup> Building Sight Words",
         "photoPath": "./img/literacy/readingRodsBuildingSightWords500x500.png",
         "hyperlink": "https://www.hand2mind.com/item/reading-rods-building-sight-words"
     },
-    "pBtn42": {
+    "prodBtn42": {
         "name": "Reading Rods<sup>�</sup> Phonics Word-Building",
         "photoPath": "./img/literacy/readingRodsPhonicsWordBuilding500x500.png",
         "hyperlink": "https://www.hand2mind.com/item/reading-rods-phonics-word-building"
     },
-    "pBtn43": {
+    "prodBtn43": {
         "name": "Reading Rods<sup>�</sup> Prefixes & Suffixes",
         "photoPath": "./img/literacy/readingRodsPrefixesSuffixes500x500.png",
         "hyperlink": "https://www.hand2mind.com/item/reading-rods-prefixes-suffixes"
     },
-    "pBtn44": {
+    "prodBtn44": {
         "name": "Reading Rods<sup>�</sup> Sentence Construction",
         "photoPath": "./img/literacy/readingRodsSentenceConstruction500x500.png",
         "hyperlink": "https://www.hand2mind.com/item/reading-rods-sentence-construction"
     },
-    "pBtn45": {
+    "prodBtn45": {
         "name": "Phoneme Phone Set",
         "photoPath": "./img/literacy/phenomePhones500x500.png",
         "hyperlink": "https://www.hand2mind.com/item/phoneme-phone-set-of-6"
     },
-    "pBtn46": {
+    "prodBtn46": {
         "name": "Learn My Letters Fine Motor Clips",
         "photoPath": "./img/literacy/learnMyLettersFineMotorClips500x500.png",
         "hyperlink": "https://www.hand2mind.com/item/learn-my-letters-fine-motor-clips"
     },
-    "pBtn47": {
+    "prodBtn47": {
         "name": "Lily Pad Letter Hop Word-Building Game",
         "photoPath": "./img/literacy/lilyPadLetterHop500x500.png",
         "hyperlink": "https://www.hand2mind.com/item/lily-pad-letter-hop-word-building-game"
     },
-    "pBtn48": {
+    "prodBtn48": {
         "name": "Alphabet Picture Mnemonic Cards",
         "photoPath": "./img/literacy/alphabetPictureMnemonicCards500x500.png",
         "hyperlink": "https://www.hand2mind.com/item/alphabet-picture-mnemonic-cards"
     },
-    "pBtn49": {
+    "prodBtn49": {
         "name": "Morphology Wall Card Set",
         "photoPath": "./img/literacy/morphologyWallCardSet500x500.png",
         "hyperlink": "https://www.hand2mind.com/item/morphology-wall-card-set"
     },
-    "pBtn50": {
+    "prodBtn50": {
         "name": "FingerFocus<sup>�</sup> Highlighter Follow-Along Friends",
         "photoPath": "/img/literacy/fingerFocusHighlighterFollowAlongFriends500x500.png",
         "hyperlink": "https://www.hand2mind.com/item/fingerfocus-highlighter-follow-along-friends"
     },
-    "pBtn51": {
+    "prodBtn51": {
         "name": "Beginning Word Builder",
         "photoPath": "./img/literacy/beginningWordBuilder500x500.png",
         "hyperlink": "https://www.hand2mind.com/item/beginning-word-builder"
