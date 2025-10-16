@@ -1,0 +1,27 @@
+{
+    "pBtn52": {
+        "name": "Tactile Turtles Math Activity Set",
+        "photoPath": "./img/math/tactileTurtles500x500.png",
+        "hyperlink": "https://www.hand2mind.com/item/tactile-turtles-math-activity-set"
+    },
+    "pBtn53": {
+        "name": "Grab That Monster Fine Motor<br>Activity Set",
+        "photoPath": "./img/math/grabThatMonster500x500.png",
+        "hyperlink": "https://www.hand2mind.com/item/grab-that-monster-fine-motor-skills-game"
+    },
+    "pBtn54": {
+        "name": ">Sea Animal Dice Poppers",
+        "photoPath": "./img/math/seaAnimalsDicePoppers500x500.png",
+        "hyperlink": "https://www.hand2mind.com/item/sea-animal-dice-poppers"
+    },
+    "pBtn55": {
+        "name": "Learn My Numbers Fine Motor Clips",
+        "photoPath": "./img/math/learnMyNumbersFineMotorClips500x500.png",
+        "hyperlink": "https://www.hand2mind.com/item/learn-my-numbers-fine-motor-clips"
+    },
+    "pBtn56": {
+        "name": "Place Value Frame with Base Ten Blocks",
+        "photoPath": "./img/math/placeValueFrameBaseTenBlocks500x500.png",
+        "hyperlink": "https://www.hand2mind.com/item/place-value-frame-with-base-ten-blocks"
+    }
+}

@@ -1,6 +1,5 @@
 console.log('Start Script');
 
-var numberBlockProducts = 23
 
 const headerLeftBtn = document.getElementById('headerLeftBtn');
 const prodBtn1 = document.getElementById('prodBtn1');
@@ -16,35 +15,24 @@ const extLink = (pageURL) => {
 	window.open(pageURL, '_blank');
 };
 
-// const createVariables = () => {
-// 	var ids = [];
-// 	for (var i = 1; i <= numberBlockProducts; ++i) {
-// 		document.getElementById('pBtn' + i)
-// 	}
-
-// 	return ids;
-// }
-
-
-
 headerLeftBtn.addEventListener('click', () => {
 	pageTurn('index.html');
 });
 
 prodBtn1.addEventListener('click', () => {
-	pageTurn('products.html#numberblocks');
+	pageTurn('products.html#numberblocksTitle');
 });
 
 prodBtn2.addEventListener('click', () => {
-	pageTurn('products.html#socialemotional');
+	pageTurn('products.html#socialemotionalTitle');
 });
 
 prodBtn3.addEventListener('click', () => {
-	pageTurn('products.html#literacy');
+	pageTurn('products.html#literacyTitle');
 });
 
 prodBtn4.addEventListener('click', () => {
-	pageTurn('products.html#math');
+	pageTurn('products.html#mathTitle');
 });
 
 mediaBtn2.addEventListener('click', () => {
