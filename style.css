@@ -365,7 +365,7 @@ a {
 
 /* CSS For Product Page */
 
-.productA {
+.sectionA {
 	color: #1e152a;
 	background-color: #7d8cc4;
 	display: flex;
@@ -373,7 +373,7 @@ a {
 	padding: 20px 0px;
 }
 
-.productB {
+.sectionB {
 	color: #7d8cc4;
 	background-color: #1e152a;
 	display: flex;
@@ -437,11 +437,11 @@ a {
 	padding: 10px 0px;
 }
 
-.pBtn {
+.prodBtn {
 	width: 200px;
 }
 
-.pBtn img {
+.prodBtn img {
 	width: 200px;
 }
 
