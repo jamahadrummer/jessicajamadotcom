@@ -16,19 +16,19 @@ headerLeft.headerLeftBtn.addEventListener('click', () => {
 	pageTurn('index.html');
 });
 
-prodBtn.prodBtn1.addEventListener('click', () => {
+prodBtn.pCatBtn1.addEventListener('click', () => {
 	pageTurn('products.html#numberblocksTitle');
 });
 
-prodBtn.prodBtn2.addEventListener('click', () => {
-	pageTurn('products.html#socialemotionalTitle');
+prodBtn.pCatBtn2.addEventListener('click', () => {
+	pageTurn('products.html#socialEmotionalTitle');
 });
 
-prodBtn.prodBtn3.addEventListener('click', () => {
+prodBtn.pCatBtn3.addEventListener('click', () => {
 	pageTurn('products.html#literacyTitle');
 });
 
-prodBtn.prodBtn4.addEventListener('click', () => {
+prodBtn.pCatBtn4.addEventListener('click', () => {
 	pageTurn('products.html#mathTitle');
 });
 

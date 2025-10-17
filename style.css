@@ -1,15 +1,23 @@
+:root {
+	--defaultBackground: #7d8cc4;
+	--defaultTextColor: #1e152a;
+	--reverseBackground: #1e152a;
+	--reverseTextColor: #7d8cc4;
+}
+
+/* General Definitions */
 body {
-	background-color: #7d8cc4;
+	color: var(--defaultTextColor);
+	background-color: var(--defaultBackground);
 	font-family: sans-serif;
-	display: flex;
-	flex-direction: column;
-	/* min-width: 1050px; */
 	margin: 0;
 }
 
 sup {
 	font-size: small;
 }
+
+/* Button Reset */
 
 button {
 	border: 0;
@@ -19,64 +27,72 @@ button {
 	font-family: sans-serif;
 }
 
+/* Link Reset */
+
 a {
 	color: inherit;
 	text-decoration: inherit;
 }
 
+/* Header */
 .header {
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	/* border: 5px solid white; */
-	/* min-width: 1220px; */
-	background-color: #1e152a;
+	background-color: var(--reverseBackground);
 	font-family: inherit;
 }
 
-.hbox {
-	display: flex;
+.hBox {
+	display: inherit;
 	justify-content: space-between;
-	width: 1200px;
 	margin: 20px 0px;
 }
 
 .headerLeft {
-	color: #7d8cc4;
+	color: var(--reverseTextColor);
+	font-family: inherit;
 	font-size: 48px;
 	font-weight: bolder;
-	display: flex;
+	display: inherit;
 	flex-direction: column;
 	justify-content: space-around;
-	font-family: inherit;
+	min-width: 373px;
 }
 
-.headerRight {
-	/* margin-right: 16px; */
+/* Future Subpages */
+
+/* .headerRight {
 	display: flex;
 	color: #7d8cc4;
 	font-size: 18px;
-	/* display: flex;
-	flex-direction: column;
-	justify-content: space-around; */
-}
+} */
 
-.header ul {
+/* .header ul {
 	display: flex;
 	gap: 16px;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-}
+} */
 
-.contentA {
+/* Section A is "Default" Color Scheme and Inherits from "Body"  */
+
+.fullPage {
 	display: flex;
+	flex-direction: column;
 	justify-content: space-around;
-	margin: 20px 0px;
-	/* min-width: 1220px; */
+	align-items: center;
 }
 
-.contentAbox {
+.sectionA {
+	color: inherit;
+	background-color: inherit;
+	display: flex;
+	flex-direction: column;
+	padding: 20px 0px;
+}
+
+.bioBox {
 	display: flex;
 	flex-direction: column;
 	gap: 5px;
@@ -84,15 +100,17 @@ a {
 	align-items: center;
 }
 
-.contentAtitle {
+.bioTitle {
+	display: inherit;
 	text-align: center;
 	font-size: 32px;
 	font-weight: bolder;
-	color: #1e152a;
+	color: var(--defaultTextColor);
+	min-width: 521px;
 }
 
-.contentAphoto {
-	max-width: 341px;
+.bioPhoto {
+	max-width: 325px;
 }
 
 .contentAthird {
@@ -100,18 +118,66 @@ a {
 	color: #7d8cc4;
 }
 
-.contentAbox2 {
+/* Section B is the "Alternate" Color Scheme and is defined here */
+
+.sectionB {
+	color: var(--reverseTextColor);
+	background-color: var(--reverseBackground);
 	display: flex;
-	width: 500px;
+	flex-direction: column;
+	padding: 20px 0px;
+}
+
+.prodTitle {
+	color: inherit;
+	display: inherit;
+	text-align: center;
+	font-size: 42px;
+	font-weight: bold;
+	padding: 0px 0px 20px;
+}
+
+/* .contentBtitle {
+	color: #7d8cc4;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 0px;
+} */
+
+.cBIcons {
+	display: inherit;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.icons {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+
+.iconContainer {
+	display: inherit;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	width: 250px;
+	height: 250px;
+}
+
+.iconSquare {
+	display: inherit;
+	height: 400px;
+	width: 400px;
+	/* background-color: #7D8CC4; */
+	/* border: 5px solid #7D8CC4; */
+	border-radius: 20px;
 	justify-content: center;
 	align-items: center;
 }
 
-.gradient1 {
-	height: 100;
-	width: 800;
-	/* padding: 16px; */
-}
 
 .contentC {
 	display: flex;
@@ -136,64 +202,6 @@ a {
 	padding: 20px 0px;
 }
 
-.contentB {
-	display: flex;
-	margin: 0px;
-	/* min-width: 1220px; */
-	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	background-color: #1e152a;
-	/* border: 5px solid red; */
-	/* padding: 0 500px; */
-	/* gap: 40px; */
-	font-size: 42px;
-	font-weight: bold;
-}
-
-.contentBtitle {
-	color: #7d8cc4;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	padding: 20px 0px;
-}
-
-.cBIcons {
-	display: inherit;
-	justify-content: space-between;
-	flex-wrap: wrap;
-}
-
-.icons {
-	display: flex;
-	justify-content: center;
-	gap: 30px;
-}
-
-.cBbox {
-	display: inherit;
-}
-.iconContainer {
-	display: inherit;
-	flex-direction: column;
-	align-items: center;
-	padding: 20px;
-	width: 250px;
-	height: 250px;
-}
-
-.iconSquare {
-	display: inherit;
-	height: 400px;
-	width: 400px;
-	/* background-color: #7D8CC4; */
-	/* border: 5px solid #7D8CC4; */
-	border-radius: 20px;
-	justify-content: center;
-	align-items: center;
-}
 
 .prodBtn {
 	width: 400px;
@@ -365,34 +373,21 @@ a {
 
 /* CSS For Product Page */
 
-.sectionA {
-	color: #1e152a;
-	background-color: #7d8cc4;
-	display: flex;
-	flex-direction: column;
-	padding: 20px 0px;
-}
 
-.sectionB {
-	color: #7d8cc4;
-	background-color: #1e152a;
-	display: flex;
-	flex-direction: column;
-	padding: 20px 0px;
-}
 
 .pIcons {
 	display: flex;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
-	gap: 15px;
+	/* max-width: 1560px; */
+	/* gap: 15px; */
 }
 
 .pBox {
 	color: inherit;
 	display: inherit;
-	align-content: space-between;
-	width: 250px;
+	align-content: space-around;
+	max-width: 250px;
 }
 
 .pIconContainer {
@@ -400,7 +395,6 @@ a {
 	display: inherit;
 	flex-direction: column;
 	align-items: center;
-	gap: 5px;
 	justify-content: space-between;
 }
 
@@ -429,6 +423,11 @@ a {
 	min-height: 135px;
 }
 
+.pIconTextBox#index1 {
+	min-height: 10px;
+}
+
+
 .pIconText {
 	color: inherit;
 	font-size: 24px;
@@ -438,6 +437,8 @@ a {
 }
 
 .prodBtn {
+	display: inherit;
+	justify-content: center;
 	width: 200px;
 }
 
