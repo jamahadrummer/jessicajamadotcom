@@ -1,10 +1,10 @@
 {
 	"name": "jessicajama.com",
-	"version": "1.0.1",
+	"version": "2.0.0",
 	"description": "Basic Personal/Professional Landing Page for Jessica Jama",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "parcel index.html",
+		"start": "parcel ./*.html",
 		"build": "parcel build index.html"
 	},
 	"repository": {
@@ -18,12 +18,10 @@
 	},
 	"homepage": "https://github.com/jamahadrummer/jessicajamadotcom#readme",
 	"devDependencies": {
-		"@parcel/packager-raw-url": "latest",
-		"@parcel/transformer-webmanifest": "latest",
-		"parcel": "latest",
-		"svgo": "^3.3.2"
+		"@parcel/packager-raw-url": "^2.16.0",
+		"@parcel/transformer-webmanifest": "^2.16.0",
+		"eslint": "latest",
+		"parcel": "latest"
 	},
-	"dependencies": {
-		"@fortawesome/fontawesome-free": "^5.15.4"
-	}
+	"dependencies": {}
 }

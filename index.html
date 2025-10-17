@@ -3,132 +3,178 @@
 
 <head>
 	<meta charset='UTF-8'>
-	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<!-- <meta http-equiv='X-UA-Compatible' content='IE=edge'> -->
 	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
 	<title>Jessica Jama</title>
 	<link rel='stylesheet' href='style.css'>
-	<link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
-	<link rel="manifest" href="./img/site.webmanifest">
+	<link rel='apple-touch-icon' sizes='180x180' href='./img/apple-touch-icon.png'>
+	<link rel='icon' type='image/png' sizes='32x32' href='./img/favicon-32x32.png'>
+	<link rel='icon' type='image/png' sizes='16x16' href='./img/favicon-16x16.png'>
+	<link rel='manifest' href='./img/site.webmanifest'>
 	<script src='https://kit.fontawesome.com/e8137c5d9d.js' crossorigin='anonymous'></script>
 	<script src=index.js defer></script>
 </head>
 
 <body>
-	<div class=header>
-		<div class=hBox>
-			<div class=headerLeft>
+	<div class='header'>
+		<div class='hBox'>
+			<div class='headerLeft'>
 				<div>
-					<button id='headerLeftBtn' class='headerLeft'>Jessica Jama</button>
+					<button class='headerLeft' id='headerLeftBtn'>Jessica Jama</button>
 				</div>
 			</div>
-			<ul class=headerRight>
-				<!-- <li><button class=''>Resume</button></li> -->
-				<!-- <li><a href='#'></a>Show Photos</li> -->
-				<!-- <li><a href='#'></a>Contact</li> -->
-			</ul>
+			<!-- <ul class=headerRight>
+				<li><button class='headerRight' id='resumeBtn'>Resume</button></li>
+				<li><button class='headerRight' id='productsBtn'>Products</button></li>
+				<li><button class='headerRight' id='contactBtn'>Contact</button></li>
+			</ul> -->
 		</div>
 	</div>
 	</div>
-	<div class=content1>
-		<div class=content1box>
+	<div class='sectionA'>
+		<div class='bioBox'>
 			<div>
-				<div class=content1title>Senior Product Manager at
+				<div class='iTitle'>Senior Product Manager at
 					<br>
-					<a href="https://www.hand2mind.com/">hand2mind</a> in Vernon Hills, Illinois
+					<a href='https://www.hand2mind.com/'>hand2mind</a> in Vernon Hills, Illinois
 				</div>
 			</div>
-			<div class=content1photo>
-				<img class=content1photo src='./img/headshot.png'
-					alt="A Smiling Headshot of Jessica Jama wearing a Black Shirt and Colorful Bow">
+			<div>
+				<img class='bioPhoto' src='./img/headshot.png'
+					alt='A Smiling Headshot of Jessica Jama wearing a Black Shirt and Colorful Bow'>
 			</div>
 		</div>
 	</div>
-	<div class=content3>
-		<div class="content3title">
-			Links
+	<div class='sectionB'>
+		<div>
+			<div class='prodTitle' id='prodTitle'>Products</div>
 		</div>
-		<div class=c3box2>
-			<div class=links>
-				<div class=linkBlock>
-					<div class='icons'>
-						<div class='iconContainer'>
-							<div class='iconSquare'>
-								<button class='iconBtn' id='iconBtn1'><img src='./img/linkedin.svg'
-										alt='LinkedIn Logo for External Link'></button>
-							</div>
-							<div class='iconText'>LinkedIn</div>
+		<div class='pIcons' id='pCategories'>
+			<div class=pBox>
+				<div class='pIconContainer'>
+					<div class='pIconSquare'>
+						<button class='prodBtn' id='pCatBtn1'><img
+								src='./img/numberBlocks/numberBlocksBlockzee500x500.png' alt='AltText'></button>
+					</div>
+					<div class='pCatTextBox'>
+						<div class='pIconText'>Numberblocks</div>
+					</div>
+				</div>
+			</div>
+			<!-- end pBox -->
+			<div class=pBox>
+				<div class='pIconContainer'>
+					<div class='pIconSquare'>
+						<button class='prodBtn' id='pCatBtn2'><img
+								src='./img/socialEmotional/expressOriginal500x500.png' alt='AltText'></button>
+					</div>
+					<div class='pCatTextBox'>
+						<div class='pIconText'>Social Emotional</div>
+					</div>
+				</div>
+			</div>
+			<!-- end pBox -->
+			<div class=pBox>
+				<div class='pIconContainer'>
+					<div class='pIconSquare'>
+						<button class='prodBtn' id='pCatBtn3'><img
+								src='./img/literacy/readingRodsAlphabetPhonemic500x500.png' alt='AltText'></button>
+					</div>
+					<div class='pCatTextBox'>
+						<div class='pIconText'>Literacy</div>
+					</div>
+				</div>
+			</div>
+			<!-- end pBox -->
+			<div class=pBox>
+				<div class='pIconContainer'>
+					<div class='pIconSquare'>
+						<button class='prodBtn' id='pCatBtn4'><img src='./img/math/tactileTurtles500x500.png'
+								alt='AltText'></button>
+					</div>
+					<div class='pCatTextBox'>
+						<div class='pIconText'>Math</div>
+					</div>
+				</div>
+			</div>
+			<!-- end pBox -->
+		</div>
+	</div>
+	<div class='sectionA'>
+		<div class='mediaBox'>
+			<div>
+				<div class='iTitle'>Media</div>
+			</div>
+			<div>
+				<div class='mediaContainer'>
+					<div class='mediaBlock'>
+						<iframe class='mediaVid' width='560' height='315'
+							src='https://www.youtube.com/embed/Qvt712E3ynk?si=c57pMIBOmKN1svnL'
+							title='YouTube video player' frameborder='0'
+							allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+							referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>
+					</div>
+					<div class='mediaText'>2023 Toy Fair Panel</div>
+				</div>
+				<div class='mediaContainer'>
+					<div class='mediaBlock'>
+						<button class='mediaBtn' id='mediaBtn1'>Social Emtional Learning <br> During the Holidays
+						</button>
+					</div>
+					<div class='mediaText'>The Genius of Play Ambassador Article</div>
+				</div>
+				<div class='mediaContainer'>
+					<div class='mediaBlock'>
+						<button class='mediaBtn' id='mediaBtn2'>Why Self-Care and SEL <br> Toys Are on the Rise
+						</button>
+					</div>
+					<div class='mediaText'>Kidscreen Interview</div>
+				</div>
+				<div class='mediaContainer'>
+					<div class='mediaBlock'>
+						<iframe class='mediaVid' width='560' height='315'
+							src='https://www.youtube.com/embed/i69taU9hGmw?si=pMAhi0MJ0hrSD3Hi&amp;start=123'
+							title='YouTube video player' frameborder='0'
+							allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+							referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>
+					</div>
+					<div class='mediaText'>2023 Toy Fair News Segment</div>
+				</div>
+				<div class='mediaContainer'>
+					<div class='mediaBlock'>
+						<button class='mediaBtn' id='mediaBtn3'>The Benefits of Social <br> and Emotional Learning Toys
+						</button>
+					</div>
+					<div class='mediaText'>WBEZ Radio Interview Segment</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div class='sectionB'>
+		<div>
+			<div class='iTitle'>
+				Social Media
+			</div>
+			<div class='pIcons'>
+				<div class=pBox>
+					<div class='pIconContainer'>
+						<div class='pIconSquare'>
+							<button class='prodBtn' id='sMediaBtn1'><img src='./img/linkedin.svg'
+									alt="A clickable LinkedIn Logo to Navigate to Jessica's LinkedIn Page"></button>
+						</div>
+						<div class='pCatTextBox'>
+							<div class='pIconText'>LinkedIn</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-	<div class=content2>
-		<div class='content2title'>
-			<div> Media
-			</div>
-		</div>
-		<div class='media'>
-			<div class='mediaContainer'>
-				<div class="mediaBlock">
-					<iframe class="mediaVid" width="560" height="315"
-						src="https://www.youtube.com/embed/Qvt712E3ynk?si=c57pMIBOmKN1svnL" title="YouTube video player"
-						frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-						referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-				</div>
-				<div class='mediaText'>2023 Toy Fair Panel</div>
-			</div>
-			<div class='mediaContainer'>
-				<div class='mediaBlock'>
-					<button class="mediaBtn" id="mediaBtn2">Social Emtional Learning <br> During the Holidays
-					</button>
-				</div>
-				<div class='mediaText'>The Genius of Play Ambassador Article</div>
-			</div>
-			<div class='mediaContainer'>
-				<div class='mediaBlock'>
-					<button class="mediaBtn" id="mediaBtn3">Why Self-Care and SEL <br> Toys Are on the Rise
-					</button>
-				</div>
-				<div class='mediaText'>Kidscreen Interview</div>
-			</div>
-			<div class='mediaContainer'>
-				<div class="mediaBlock">
-					<iframe class="mediaVid" width="560" height="315"
-						src="https://www.youtube.com/embed/i69taU9hGmw?si=pMAhi0MJ0hrSD3Hi&amp;start=123"
-						title="YouTube video player" frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-						referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-				</div>
-				<div class='mediaText'>2023 Toy Fair News Segment</div>
-			</div>
-			<div class='mediaContainer'>
-				<div class='mediaBlock'>
-					<button class="mediaBtn" id="mediaBtn4">The Benefits of Social <br> and Emotional Learning Toys
-					</button>
-				</div>
-				<div class='mediaText'>WBEZ Radio Interview Segment</div>
-			</div>
+			<!-- end pBox -->
 		</div>
 	</div>
 	</div>
 	</div>
 	</div>
-	<!-- <div class=content4>
-		<div class=c4box>
-			<div class=c4left>
-				<div class=c4left1>C4Left1</div>
-				<div class=c4left2>C4Left2</div>
-			</div>
-			<div class=c4Right><button>Button</button></div>
-		</div>
-	</div>
-	<div class=footer>
-		<div></div>
-	</div> -->
 </body>
 
 

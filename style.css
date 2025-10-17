@@ -1,11 +1,23 @@
+:root {
+	--defaultBackground: #7d8cc4;
+	--defaultTextColor: #1e152a;
+	--reverseBackground: #1e152a;
+	--reverseTextColor: #7d8cc4;
+}
+
+/* General Definitions */
 body {
-	background-color: #fde8e9;
+	color: var(--defaultTextColor);
+	background-color: var(--defaultBackground);
 	font-family: sans-serif;
-	display: flex;
-	flex-direction: column;
-	min-width: 1050px;
 	margin: 0;
 }
+
+sup {
+	font-size: small;
+}
+
+/* Button Reset */
 
 button {
 	border: 0;
@@ -15,63 +27,73 @@ button {
 	font-family: sans-serif;
 }
 
+/* Link Reset */
+
 a {
 	color: inherit;
 	text-decoration: inherit;
 }
 
+/* Header */
 .header {
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	/* border: 5px solid white; */
-	min-width: 1050px;
-	background-color: #050826;
+	background-color: var(--reverseBackground);
 	font-family: inherit;
 }
 
-.hbox {
-	display: flex;
+.hBox {
+	display: inherit;
 	justify-content: space-between;
-	width: 1200px;
 	margin: 20px 0px;
 }
 
 .headerLeft {
-	color: #e3bac6;
+	color: var(--reverseTextColor);
+	font-family: inherit;
 	font-size: 48px;
 	font-weight: bolder;
-	display: flex;
+	display: inherit;
 	flex-direction: column;
 	justify-content: space-around;
-	font-family: inherit;
+	min-width: 373px;
 }
 
-.headerRight {
-	/* margin-right: 16px; */
+.iTitle {
+	color: inherit;
+	display: inherit;
+	text-align: center;
+	font-size: 32px;
+	font-weight: bolder;
+}
+
+/* Future Subpages */
+
+/* .headerRight {
 	display: flex;
-	color: #e3bac6;
+	color: #7d8cc4;
 	font-size: 18px;
-	/* display: flex;
-	flex-direction: column;
-	justify-content: space-around; */
-}
+} */
 
-.header ul {
+/* .header ul {
 	display: flex;
 	gap: 16px;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+} */
+
+/* Section A is "Default" Color Scheme and Inherits from "Body"  */
+
+.sectionA {
+	color: inherit;
+	background-color: inherit;
+	display: flex;
+	flex-direction: column;
+	padding: 20px 0px;
 }
 
-.content1 {
-	display: flex;
-	justify-content: space-around;
-	margin: 50px 0px;
-	min-width: 1050px;
-}
-.content1box {
+.bioBox {
 	display: flex;
 	flex-direction: column;
 	gap: 5px;
@@ -79,91 +101,46 @@ a {
 	align-items: center;
 }
 
-.content1title {
+.bioTitle {
+	display: inherit;
 	text-align: center;
 	font-size: 32px;
 	font-weight: bolder;
-	color: #050826;
+	color: var(--defaultTextColor);
+	min-width: 521px;
 }
 
-.content1photo {
-	max-width: 341px;
+.bioPhoto {
+	max-width: 325px;
 }
 
-.content1third {
-	font-size: 24px;
-	color: #050826;
-}
+/* Section B is the "Alternate" Color Scheme and is defined here */
 
-.content1box2 {
-	display: flex;
-	width: 500px;
-	justify-content: center;
-	align-items: center;
-}
-
-.signUp {
-	background-color: #3882f6;
-	padding: 4px 30px;
-	color: #e5e7eb;
-	font-weight: bold;
-}
-
-.gradient1 {
-	height: 100;
-	width: 800;
-	/* padding: 16px; */
-}
-
-.content2 {
-	display: flex;
-	margin: 0px;
-	min-width: 1050px;
-	flex-direction: column;
-	align-items: center;
-	background-color: #e3bac6;
-	/* border: 5px solid red; */
-	/* padding: 0 500px; */
-	/* gap: 40px; */
-	font-size: 42px;
-	font-weight: bold;
-}
-
-.content2title {
+.sectionB {
+	color: var(--reverseTextColor);
+	background-color: var(--reverseBackground);
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	min-width: 1050px;
 	padding: 20px 0px;
 }
 
-.content3 {
-	display: flex;
-	margin: 0px;
-	min-width: 1050px;
-	flex-direction: column;
-	align-content: space-around;
-	background-color: #8575fb;
-	/* border: 5px solid red; */
-	/* padding: 0 500px; */
-	/* gap: 40px; */
-	font-size: 42px;
-	font-weight: bold;
-}
-
-.content3title {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	min-width: 1050px;
-	padding: 20px 0px;
-}
-
-.links {
+.prodTitle {
+	color: inherit;
 	display: inherit;
+	text-align: center;
+	font-size: 42px;
+	font-weight: bold;
+	padding: 0px 0px 20px;
 }
+
+/* .contentBtitle {
+	color: #7d8cc4;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 0px;
+} */
 
 .icons {
 	display: flex;
@@ -174,27 +151,36 @@ a {
 .iconContainer {
 	display: inherit;
 	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	width: 250px;
+	height: 250px;
 }
 
 .iconSquare {
 	display: inherit;
-	height: 150px;
-	width: 150px;
-	background-color: black;
-	border: 5px solid black;
+	height: 400px;
+	width: 400px;
+	/* background-color: #7D8CC4; */
+	/* border: 5px solid #7D8CC4; */
 	border-radius: 20px;
 	justify-content: center;
 	align-items: center;
 }
 
-.iconBtn {
-	width: 140px;
+.prodBtn {
+	width: 400px;
+}
+
+.prodBtn img {
+	width: 200px;
 }
 
 .iconText {
+	color: #7d8cc4;
 	font-size: 24px;
 	text-align: center;
-	padding: 10px 0px;
+	padding: 10px 0px 0px 0px;
 }
 
 .icons .box1 {
@@ -213,32 +199,23 @@ a {
 	transform: scale(0.9);
 }
 
-.iconBtn img {
-	filter: invert(95%) sepia(0%) saturate(343%) hue-rotate(219deg)
-		brightness(92%) contrast(86%);
+.mediaContainer {
+	display: flex;
+	min-width: 450px;
+	max-width: 520px;
+	flex-direction: column;
 }
 
-.media {
+.mediaBox {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	gap: 25px;
-	padding: 20px 0 100px 0;
-}
-
-.mediaContainer {
-	display: inherit;
-	width: 560;
-	flex-direction: column;
+	gap: 5px;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .mediaBlock {
 	display: inherit;
-	/* height: 150px; */
-	/* width: 560px; */
-	/* background-color: black; */
-	/* border: 5px solid black; */
-	/* border-radius: 20px; */
 	justify-content: center;
 	align-items: center;
 }
@@ -248,29 +225,17 @@ a {
 }
 
 .mediaBtn {
-	width: 560px;
-	font-size: 36px;
-	background-color: #5dfdcb;
+	color: var(--reverseTextColor);
+	min-width: 450px;
+	max-width: 520px;
+	font-size: 28px;
+	background-color: var(--reverseBackground);
 	border-radius: 30px;
 	padding: 5px;
 	box-shadow: 2px 5px #1f2937;
 }
 
-.mediaText {
-	font-size: 16px;
-	text-align: center;
-	padding: 10px 0px;
-}
-
-.media .box1 {
-	display: flex;
-	flex-direction: column;
-	font-size: 18px;
-	text-align: center;
-	width: 150px;
-}
-
-.mediaSquare:hover {
+.mediaBtn:hover {
 	transform: scale(1.1);
 }
 
@@ -278,72 +243,95 @@ a {
 	transform: scale(0.9);
 }
 
-.box div {
-	display: inherit;
+.mediaText {
+	color: inherit;
 	font-size: 16px;
 	text-align: center;
+	padding: 10px 0px;
 }
 
-.bodyText {
+#sMediaBtn1 img {
+	filter: invert(54%) sepia(66%) saturate(265%) hue-rotate(190deg)
+		brightness(91%) contrast(85%);
+}
+
+/* CSS For Product Page */
+
+.pIcons {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	/* max-width: 1560px; */
+	/* gap: 15px; */
+}
+
+.pBox {
+	color: inherit;
 	display: inherit;
-	width: 600px;
+	align-content: space-around;
+	max-width: 250px;
 }
 
-.attributeText {
-	font-weight: bold;
-	text-align: right;
-	width: 800px;
+.pIconContainer {
+	color: inherit;
+	display: inherit;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
 }
 
-.content4 {
-	background-color: white;
-	min-width: 1050px;
-	display: flex;
+.pIconSquare {
+	display: inherit;
+	flex-direction: column;
+	color: inherit;
+	height: 225px;
+	width: 225px;
 	justify-content: center;
-	/* border: 5px solid white; */
+	align-items: center;
 }
 
-.c4box {
-	background-color: #3882f6;
-	margin: 100px 0px;
-	padding: 40px 80px;
-	display: flex;
-	border-radius: 10px;
-	gap: 200px;
+.pIconSquare:hover {
+	transform: scale(1.1);
 }
 
-.c4left {
-	color: #f9faf8;
+.pIconSquare:active {
+	transform: scale(0.9);
 }
 
-.c4left1 {
+.pIconTextBox {
+	display: inherit;
+	flex-direction: column;
+	justify-content: space-around;
+	min-height: 135px;
+}
+
+.pIconTextBox#index1 {
+	min-height: 10px;
+}
+
+.pIconText {
+	color: inherit;
 	font-size: 24px;
 	font-weight: bold;
-}
-.c4left2 {
-	color: #f0faf8;
-	font-size: 18px;
+	text-align: center;
+	padding: 10px 0px;
 }
 
-.c4Right {
-	display: flex;
+.prodBtn {
+	display: inherit;
 	justify-content: center;
-	align-content: center;
-	/* padding: 5px 25px; */
-	border: 3px solid white;
-	border-radius: 10px;
+	width: 200px;
 }
 
-.c4Right button {
-	padding: 10px 40px;
-	color: #e5e7eb;
+.prodBtn img {
+	width: 200px;
+}
+
+.pTitle {
+	color: inherit;
+	display: inherit;
+	text-align: center;
+	font-size: 42px;
 	font-weight: bold;
-}
-
-.footer {
-	display: flex;
-	justify-content: space-around;
-	padding: 50px 0px;
-	font-size: 18px;
-	color: #e5e7eb;
+	padding: 0px 0px 20px;
 }
